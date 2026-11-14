@@ -1,0 +1,76 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    background: linear-gradient(135deg, #2b6cde, #3fa9f5);
+}
+
+.card {
+    background: #fff;
+    width: 100%;
+    max-width: 400px;
+    padding: 32px 28px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 { text-align: center; margin-bottom: 24px; color: #222; }
+
+.campo { margin-bottom: 16px; }
+
+input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccd3e0;
+    border-radius: 8px;
+    font-size: 15px;
+}
+input:focus { outline: none; border-color: #4f6df5; }
+input.invalido { border-color: #d93025; }
+
+.msg-error { display: block; color: #d93025; font-size: 12px; margin-top: 4px; min-height: 14px; }
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #4f6df5;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover { background: #3d58d8; }
+
+.opciones { display: flex; flex-direction: column; align-items: center; gap: 8px; margin-top: 20px; }
+.opciones a { color: #1a73a8; font-weight: bold; font-size: 14px; text-decoration: none; }
+.opciones a:hover { text-decoration: underline; }
+
+.alerta { padding: 10px; border-radius: 8px; font-size: 14px; margin-bottom: 16px; text-align: center; }
+.alerta-error { background: #fde8e8; color: #b42318; }
+.alerta-ok { background: #e6f4ea; color: #1e7e34; }
+
+
+.texto-dashboard { text-align: center; color: #444; margin-bottom: 24px; }
+
+.boton-link {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    background: #4f6df5;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.boton-link:hover { background: #3d58d8; }
+
+.alerta-error { background: #fde8e8; color: #b42318; }
+.alerta-ok { background: #e6f4ea; color: #1e7e34; }
+
+.texto-dashboard { text-align: center; color: #444; margin-bottom: 24px; }
