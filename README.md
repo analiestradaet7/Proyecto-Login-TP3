@@ -1,8 +1,8 @@
 # Proyecto Login
 
-**Alumno/a:** [Nombre y Apellido]
-**Materia:** [Nombre de la materia]
-**Año de cursada:** [Año]
+**Alumno/a:** Anali Estrada
+**Materia:** Analisis de sistemas
+**Año de cursada:** 5°4
 
 ## Descripción
 Sistema de login y registro de usuarios con pantalla de bienvenida protegida por sesión.
